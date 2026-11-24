@@ -1,0 +1,3 @@
+--first-party @selfxyz/,selfxyz,xyz.self,babyjubjub-rs
+--version-text babyjubjub-rs 0.0.11 (Cargo.toml); no release tags
+--released Library, not deployed on its own. Used as a git dependency by selfxyz/selfrica-tee (a backend service run as a TEE container image), which pins https://github.com/selfxyz/babyjubjub-rs at f0310f70f58c0bd6fd78bbe99c0974a503635a8c in its Cargo.lock; that commit is the head of master here.
